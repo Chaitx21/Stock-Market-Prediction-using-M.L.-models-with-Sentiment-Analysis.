@@ -1,0 +1,114 @@
+##### Anaconda Prompt (anaconda3) #####
+
+(base) C:\Users\Cvman>cd D:\xampp\htdocs\stockmarketprediction
+
+(base) C:\Users\Cvman>D:
+
+(base) C:\xampp\htdocs\Stocks>conda create -n myenv python=3.11
+
+#### conda update -n base -c defaults conda #### - if you want to update the new version of conda.
+
+#### environment location: C:\Users\Cvman\anaconda3\envs\myenv ####
+
+Proceed ([y]/n)? y
+
+(base) C:\xampp\htdocs\Stocks>conda activate myenv
+
+(myenv) C:\xampp\htdocs\Stocks>python app_all_three.py
+
+(myenv) C:\xampp\htdocs\Stocks>pip install plotly
+
+(myenv) C:\xampp\htdocs\Stocks>pip install pandas
+
+(myenv) C:\xampp\htdocs\Stocks>pip install matplotlib
+
+(myenv) C:\xampp\htdocs\Stocks>pip install numpy
+
+(myenv) C:\xampp\htdocs\Stocks>pip install statsmodels
+
+(myenv) C:\xampp\htdocs\Stocks>pip install sklearn
+
+(myenv) C:\xampp\htdocs\Stocks>pip install datetime
+
+(myenv) C:\xampp\htdocs\Stocks>pip3 install -U scikit-learn
+
+(myenv) C:\xampp\htdocs\Stocks>pip install chart_studio
+
+(myenv) C:\xampp\htdocs\Stocks>pip install keras
+
+(myenv) C:\xampp\htdocs\Stocks>pip install tensorflow
+
+(myenv) C:\xampp\htdocs\Stocks>pip install flask
+
+(myenv) C:\xampp\htdocs\Stocks>pip install -U kaleido
+
+(myenv) C:\xampp\htdocs\Stocks>python app_all_three.py
+
+
+
+
+#### For Password ####
+
+https://md5decrypt.net/en/#answer
+
+<h1 font color= "red" align="center"> STOCK MARKET DATA PREDICTION </h1>
+
+
+#### My SMP Website ####
+
+http://localhost:5000/   
+
+or
+
+localhost:5000
+
+or
+
+http://localhost:5000/calculate
+
+
+
+
+
+#### phpMyAdmin ####
+
+http://localhost//stockmarketprediction
+
+http://localhost//stockmarketprediction/
+
+http://localhost/phpmyadmin/
+
+http://localhost/phpmyadmin/index.php?route=/
+
+http://localhost/phpmyadmin/index.php?route=/server/databases
+
+#### Server: 127.0.0.1 ####
+
+## User creation ##
+http://localhost/phpmyadmin/index.php?route=/sql&db=shopping&table=users&pos=0
+
+## Importing the file ##  -  (shopping.sql)
+http://localhost/phpmyadmin/index.php?route=/database/import&db=shopping
+
+#### DEMO WEBSITE ####
+http://localhost/demowebiste/index.html
+
+
+#freetemplates
+https://www.free-css.com/free-css-templates
+
+
+
+plt.plot(apple["Date"], apple["Close"])
+plt.title("TESLA stock price over time")
+plt.xticks(np.arange(0,1250, 300), apple['Date'][0:1250:300])
+plt.xlabel("time")
+plt.ylabel("price")
+
+
+#Plotting the stock price evolution over time.
+    plt.plot(apple["Date"], apple["Close"])
+    plt.xticks(np.arange(0,1250, 300), apple['Date'][0:1250:300])
+    plt.title("Stock price over time")
+    plt.xlabel("time")
+    plt.ylabel("price")
