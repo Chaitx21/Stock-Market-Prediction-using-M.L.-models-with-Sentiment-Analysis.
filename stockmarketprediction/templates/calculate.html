@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Market Prediction</title>
+    <style>
+      body {
+        background-color: blue;
+		background-image: url('static/output.jpg');
+        margin: 0;
+        padding: 0;
+      }
+      #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #image {
+        max-width: 100%;
+        max-height: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <p style="color:White; font-size:40px; text-align:center;">STOCK MARKET DATA PREDICTION</p>
+    <div id="image-container">
+      <img id="image" src="{{url_for('static', filename='LS.png')}}" alt="Image">
+    </div>
+     <div id="image-container">
+      <img id="image" src="{{url_for('static', filename='LR.png')}}" alt="Image">
+    </div>
+     <div id="image-container">
+      <img id="image" src="{{url_for('static', filename='Arima.png')}}" alt="Image">
+    </div>
+     <div id="image-container">
+      <img id="image" src="{{url_for('static', filename='tweet.png')}}" alt="Image">
+    </div>
+  </body>
+</html>

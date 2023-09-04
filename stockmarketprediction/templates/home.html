@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock Market Prediction</title>
+	<style>
+		body {
+			background-image: url('static/predict.jpg');
+	        background-size: cover;
+	        background-position: center;
+	        background-size: 1200px 900px;
+	        font-family: Arial, sans-serif;
+	        color: #333;
+			margin: 0px;
+			padding: 0px;
+			font-family: Arial, sans-serif;
+		}
+
+
+
+		#menu {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0px;
+		}
+		
+		#menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		
+		#menu li {
+			margin-right: 0px;
+		}
+		
+		#menu li:last-child {
+			margin-right: 0px;
+		}
+		
+		#menu a {
+			color: #fff;
+			text-decoration: none;
+			padding: 5px 10px;
+			border-radius: 10px;
+			transition: background-color 0.3s ease-in-out;
+		}
+		
+		#menu a:hover {
+			background-color: #666;
+		}
+		
+		#search {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 60vh;
+			margin-right: 50px;
+		}
+		
+		#search input[type="text"] {
+			padding: 10px;
+			border-radius: 20px;
+			border: none;
+			box-shadow: 0 0 5px rgba(0,0,0,0.2);
+			width: 100%;
+		}
+		
+		#search button {
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			border: none;
+			border-radius: 10px;
+			margin-left: 10px;
+			cursor: pointer;
+			box-shadow: 0 0 5px rgba(0,0,0,0.2);
+			transition: background-color 0.3s ease-in-out;
+		}
+		
+		#search button:hover {
+			background-color: #666;
+		}
+		
+		#stocky {
+		display: block;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin:center:
+		width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="menu">
+		<ul>
+
+		</ul>
+		<ul>
+			
+
+		</ul>
+	</div>
+	
+	<div>
+	    <br>
+		<br>
+		<br><p style="color:white; font-size:40px; text-align:center;">ENTER A STOCK NAME</p>
+	</div>
+	<div id="search">
+		<center class="laptop">
+		<form action="/calculate" method="POST"> 
+		<br><input type="text" name = "number" placeholder="Company Stock Name"></br>
+			<br>
+		<br><button class = "bttn-pill bttn-lg btn-success"><b style="color:white;">PREDICT THE STOCK PRICE</b></button></br>
+		</form>
+		</center>
+	</div>
+</body>
+</html>

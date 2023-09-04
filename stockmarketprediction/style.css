@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5); /* Set background color to semi-transparent black */
+  color: #fff; /* Set text color to white */
+}
+
+.content h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.content p {
+
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.about-us {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Set background color to semi-transparent black */
+  color: #fff; /* Set text color to white */
+  font-family: Arial, sans-serif;
+  text-align: center; /* add this line to center-align the text */
+  background-image: url('image.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+
+}
+
+
+.about-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center; /* add this line to center-align the text */
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center; /* add this line to center-align the text */
+}
+
+.contact {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Set background color to semi-transparent black */
+  color: #fff; /* Set text color to white */
+  font-family: Arial, sans-serif;
+  text-align: center; /* add this line to center-align the text */
+  background-image: url('contact.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+
+}
